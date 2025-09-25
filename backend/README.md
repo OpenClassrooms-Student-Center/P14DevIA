@@ -16,7 +16,7 @@ docker run \
   -e POSTGRES_PASSWORD=password \
   -e POSTGRES_DB=newsfoundry \
   -p 5432:5432 \
-  pgvector/pgvector:pg17
+  postgres:17
 ```
 
 3. Lancer le backend:
