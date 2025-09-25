@@ -23,10 +23,3 @@ docker run \
 ```bash
 uv run --env-file .env src/main.py
 ```
-
-## Deploiement
-
-Déployer le backend sur [Railway](https://railway.com/dashboard).
-Un dockerfile est déjà présent pour faciliter le déploiement. Il faudra simplement référencer `backend/` comme "Root Directory" après avoir connecté le repository.
-
-La base de donnée postgres peut être créée via Railway dans le même projet que le backend.
